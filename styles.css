@@ -25,7 +25,7 @@ body {
 .top-header {
   display: flex;
   justify-content: space-between;
-  width: 1100px;
+  width: 1400px;
 }
 
 .header-logo {
@@ -51,14 +51,14 @@ a {
   height: 250px;
   justify-content: space-between;
   align-items: center;
-  width: 1100px;
+  width: 1400px;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 450px;
+  width: 700px;
   flex: 0 0 auto;
 }
 
@@ -88,7 +88,7 @@ a {
 }
 
 .header-image {
-  height: 220px;
+  height: 250px;
   flex: 0 0 auto;
 }
 
@@ -99,34 +99,67 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  padding-bottom: 100px;
 }
 
 .first-sect-title {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
-  width: 1100px;
+  width: 1400px;
   text-align: center;
   margin-top: 30px;
 }
 
 .cards {
   display: flex;
-  gap: 60px;
-  width: 1100px;
+  gap: 100px;
+  width: 1400px;
   justify-content: center;
 }
 
 .card {
-  width: 150px;
+  width: 200px;
 }
 
 .card-img {
-  width: 150px;
+  width: 200px;
   border: 5px solid #3882f6;
   border-radius: 15px;
 }
 
 .card-descr {
   text-align: center;
+}
+
+/* -------------------- Second section --------------------- */
+
+.second-sect {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.citation-box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 1000px;
+}
+
+.citation {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  width: 1000px;
+  padding-top: 100px;
+}
+
+.citation-author {
+  width: 1000px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 60px;
 }
