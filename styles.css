@@ -202,3 +202,14 @@ a {
   font-weight: 700;
   font-size: 16px;
 }
+
+/* -------------------- Footer --------------------- */
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eB;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
